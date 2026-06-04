@@ -1,0 +1,16 @@
+fastapi
+Untuk membuat API yang dipanggil backend Node.js.
+uvicorn
+Web server untuk menjalankan FastAPI.
+tensorflow
+Untuk load:skill_gap_model.keras
+numpy
+TensorFlow dan scikit-learn sangat bergantung pada numpy.
+scikit-learn
+Untuk load:tfidf_vectorizer.pkl
+joblib
+Biasanya .pkl model/vectorizer di-load menggunakan:joblib.load(...)
+pydantic
+Validasi request FastAPI.
+
+server http://127.0.0.1:8000/analyze
