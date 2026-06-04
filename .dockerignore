@@ -1,0 +1,115 @@
+# Docker Build Context Optimization
+# Files & folders yang TIDAK akan di-copy ke image
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+Jenkinsfile
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# Miscellaneous
+.env.example
+.editorconfig
+.pre-commit-config.yaml
+tsconfig.json
+package.json
+package-lock.json
+node_modules/
+.gradle/
+build.gradle
+settings.gradle
+
+# OS
+Thumbs.db
+.DS_Store
+*.log
+
+# Backups
+*.bak
+*.backup
+*.tmp
+*.swp
+
+# Optional: Uncomment jika ingin exclude training data
+# *.csv
+# *.xlsx
+# *.json
+
+# Optional: Exclude test files
+# test_*.py
+# *_test.py
+# tests/

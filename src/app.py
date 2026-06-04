@@ -34,7 +34,7 @@ def root():
 
 # HEALTH CHECK
 
-@app.get("/health", response_model=HealthResponse)
+@app.get("/ping", response_model=HealthResponse)
 def health_check():
     return {
         "success": True,
